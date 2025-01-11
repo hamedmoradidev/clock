@@ -14,7 +14,6 @@ setInterval(() => {
     let status=TimeString.slice(-2)
     console.log(status)
     console.log(hhh)
-    console.log(TimeString)
     messagePrint()
     function messagePrint(){
         switch(true){

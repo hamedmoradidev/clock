@@ -7,7 +7,7 @@ console.log("hi")
 setInterval(() => {
     let myDate=new Date
     let hh=myDate.getHours()*30
-    let hhh=myDate.getHours
+    let hhh=myDate.getHours()
     let mm=myDate.getMinutes()*deg
     let ss=myDate.getSeconds()*deg
     let TimeString=myDate.toLocaleString()

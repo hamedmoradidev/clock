@@ -3,6 +3,7 @@ const hr=document.getElementById("hour")
 const mn=document.getElementById("minute")
 const sc=document.getElementById("second")
 const deg=6
+console.log("hi")
 setInterval(() => {
     let myDate=new Date
     let hh=myDate.getHours()*30

@@ -10,6 +10,8 @@ setInterval(() => {
     let ss=myDate.getSeconds()*deg
     let TimeString=myDate.toLocaleTimeString()
     let status=TimeString.substring(8, 10)
+    console.log(status)
+    console.log(TimeString)
     messagePrint()
     function messagePrint(){
         switch(true){

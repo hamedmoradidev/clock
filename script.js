@@ -9,7 +9,7 @@ setInterval(() => {
     let hh=myDate.getHours()*30
     let mm=myDate.getMinutes()*deg
     let ss=myDate.getSeconds()*deg
-    let TimeString=myDate.toLocaleTimeString()
+    let TimeString=myDate.getHours()
     let status=TimeString.substring(8, 10)
     console.log(status)
     console.log(TimeString)

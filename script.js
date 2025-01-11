@@ -7,13 +7,13 @@ console.log("hi")
 setInterval(() => {
     let myDate=new Date
     let hh=myDate.getHours()*30
-    let hhh=myDate.getHours()
+    // let hhh=myDate.getHours()
     let mm=myDate.getMinutes()*deg
     let ss=myDate.getSeconds()*deg
     let TimeString=myDate.toLocaleString()
     let status=TimeString.substring(8, 10)
-    console.log(status)
-    console.log(hhh)
+    // console.log(status)
+    // console.log(hhh)
     messagePrint()
     function messagePrint(){
         switch(true){

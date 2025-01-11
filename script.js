@@ -25,7 +25,7 @@ setInterval(() => {
                 msg.innerText="Good Evening";break;
             case ((status=="AM") && (hhh<=4)):
                 msg.innerText="Good Night";break;
-            case ((status=="PM") && (hhh>=9)):
+            case ((status=="PM") && (hhh>=21)):
                 msg.innerText="Good Night";break;
             default:
                 msg.innerText=`Have a Good Time`;

@@ -11,7 +11,7 @@ setInterval(() => {
     let mm=myDate.getMinutes()*deg
     let ss=myDate.getSeconds()*deg
     let TimeString=myDate.toLocaleString()
-    let status=TimeString.substring(8, 10)
+    let status=TimeString.slice(-2)
     console.log(status)
     console.log(hhh)
     console.log(TimeString)

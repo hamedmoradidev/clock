@@ -7,24 +7,25 @@ console.log("hi")
 setInterval(() => {
     let myDate=new Date
     let hh=myDate.getHours()*30
+    let hhh=myDate.getHours
     let mm=myDate.getMinutes()*deg
     let ss=myDate.getSeconds()*deg
     let TimeString=myDate.toLocaleString()
     let status=TimeString.substring(8, 10)
     console.log(status)
-    console.log(hh)
+    console.log(hhh)
     messagePrint()
     function messagePrint(){
         switch(true){
-            case ((status=="AM") && (hh>=5) && (hh<=11)):
+            case ((status=="AM") && (hhh>=5) && (hhh<=11)):
                 msg.innerText="Good Morning";break;
-            case ((status=="PM") && (hh>=5) && (hh<=12)):
+            case ((status=="PM") && (hhh>=5) && (hhh<=12)):
                 msg.innerText="Good Afternoon";break;
-            case ((status=="PM") && (hh>=5) && (hh<=7)):
+            case ((status=="PM") && (hhh>=5) && (hhh<=7)):
                 msg.innerText="Good Evening";break;
-            case ((status=="AM") && (hh<=4)):
+            case ((status=="AM") && (hhh<=4)):
                 msg.innerText="Good Night";break;
-            case ((status=="PM") && (hh>=9)):
+            case ((status=="PM") && (hhh>=9)):
                 msg.innerText="Good Night";break;
             default:
                 msg.innerText=`Have a Good Time`;

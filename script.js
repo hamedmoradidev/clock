@@ -10,7 +10,7 @@ setInterval(() => {
     let mm=myDate.getMinutes()*deg
     let ss=myDate.getSeconds()*deg
     let TimeString=myDate.getHours()
-    let status=TimeString.substring(8, 10)
+    // let status=TimeString.substring(8, 10)
     console.log(status)
     console.log(TimeString)
     messagePrint()

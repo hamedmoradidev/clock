@@ -14,6 +14,7 @@ setInterval(() => {
     let status=TimeString.substring(8, 10)
     console.log(status)
     console.log(hhh)
+    console.log(TimeString)
     messagePrint()
     function messagePrint(){
         switch(true){

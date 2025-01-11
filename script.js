@@ -24,7 +24,7 @@ setInterval(() => {
             case ((status=="PM") && (hh>=9)):
                 msg.innerText="Good Night";break;
             default:
-                msg.innerText=`Have a Good Time`;break;
+                msg.innerText=`Have a Good Time`;
         }
     }
     hr.style.transform=`rotateZ(${hh+(mm/12)}deg)`
